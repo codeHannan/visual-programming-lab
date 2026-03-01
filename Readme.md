@@ -1,3 +1,3 @@
 ---
-Lab Related Work!
+title: Lab Related Work!
 ---
