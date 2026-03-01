@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%231877F2'/%3E%3Ctext x='50' y='78' font-size='75' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'%3Ef%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar-fb d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-2">
+      <a href="login.html" class="brand">facebook</a>
+      <div class="search-wrapper">
+        <i class="bi bi-search search-icon"></i>
+        <input type="text" class="search-box" placeholder="Search Facebook">
+      </div>
+    </div>
+
+    <div class="nav-tabs-fb d-none d-md-flex">
+      <button class="tab-item active" title="Home"><i class="bi bi-house-door-fill"></i></button>
+      <button class="tab-item" title="Watch"><i class="bi bi-play-btn"></i></button>
+      <button class="tab-item" title="Marketplace"><i class="bi bi-shop"></i></button>
+      <button class="tab-item" title="Groups"><i class="bi bi-people"></i></button>
+      <button class="tab-item" title="Gaming"><i class="bi bi-controller"></i></button>
+    </div>
+
+    <div class="nav-icons d-flex gap-2">
+      <button class="btn-icon" title="Menu"><i class="bi bi-grid-3x3-gap-fill"></i></button>
+      <button class="btn-icon" title="Messenger"><i class="bi bi-chat-dots-fill"></i></button>
+      <button class="btn-icon has-badge" title="Notifications"><i class="bi bi-bell-fill"></i><span class="badge-dot"></span></button>
+      <button class="btn-icon btn-profile" title="Account"><i class="bi bi-person-circle"></i></button>
+    </div>
+  </nav>
+
+  <!-- MAIN LAYOUT -->
+  <div class="main-layout">
+
+    <!-- Left Sidebar -->
+    <aside class="sidebar-left">
+      <a href="#" class="menu-item">
+        <div class="avatar-sm">AH</div>
+        Abdul Hannan
+      </a>
+
+      <div class="sidebar-divider"></div>
+
+      <a href="#" class="menu-item">
+        <div class="menu-icon blue"><i class="bi bi-people-fill"></i></div>
+        Friends
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon green"><i class="bi bi-clock-history"></i></div>
+        Memories
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon red"><i class="bi bi-bookmark-fill"></i></div>
+        Saved
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon orange"><i class="bi bi-collection-play-fill"></i></div>
+        Video
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon purple"><i class="bi bi-calendar-event-fill"></i></div>
+        Events
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon teal"><i class="bi bi-flag-fill"></i></div>
+        Pages
+      </a>
+
+      <div class="sidebar-divider"></div>
+      <p class="sidebar-label">Your shortcuts</p>
+
+      <a href="#" class="menu-item">
+        <div class="menu-icon dark"><i class="bi bi-shield-lock-fill"></i></div>
+        CyberSec Community
+      </a>
+      <a href="#" class="menu-item">
+        <div class="menu-icon dark"><i class="bi bi-mortarboard-fill"></i></div>
+        AU BSCS 28
+      </a>
+    </aside>
+
+    <!-- Feed -->
+    <div class="feed">
+
+      <!-- Stories Row -->
+      <div class="stories-row">
+        <div class="story-card story-create">
+          <div class="story-plus"><i class="bi bi-plus-lg"></i></div>
+          <span>Create story</span>
+        </div>
+        <div class="story-card">
+          <div class="story-avatar bg-blue">SA</div>
+          <span>Saman</span>
+        </div>
+        <div class="story-card">
+          <div class="story-avatar bg-green">MR</div>
+          <span>Raza</span>
+        </div>
+        <div class="story-card">
+          <div class="story-avatar bg-red">FK</div>
+          <span>Fatima</span>
+        </div>
+        <div class="story-card">
+          <div class="story-avatar bg-purple">ZH</div>
+          <span>Zainab</span>
+        </div>
+      </div>
+
+      <!-- Create Post -->
+      <div class="create-post">
+        <div class="create-post-top">
+          <div class="avatar-sm">AH</div>
+          <div class="create-input">What's on your mind, Hannan?</div>
+        </div>
+        <div class="create-post-actions">
+          <button class="action-btn"><i class="bi bi-camera-video-fill text-danger"></i> Live video</button>
+          <button class="action-btn"><i class="bi bi-images text-success"></i> Photo/video</button>
+          <button class="action-btn"><i class="bi bi-emoji-smile text-warning"></i> Feeling</button>
+        </div>
+      </div>
+
+      <!-- Post 1 -->
+      <div class="post-card">
+        <div class="post-header">
+          <div class="avatar-sm bg-green">AU</div>
+          <div>
+            <div class="name">Air University Islamabad <i class="bi bi-patch-check-fill verified"></i></div>
+            <div class="time">2 hrs · <i class="bi bi-globe2"></i></div>
+          </div>
+          <button class="post-menu"><i class="bi bi-three-dots"></i></button>
+        </div>
+        <div class="post-body">
+          Congratulations to all BSCS students on completing their mid-term exams! 🎓💻
+          <br><br>
+          Keep pushing forward — your hard work will pay off. Wishing everyone a well-deserved break before finals!
+        </div>
+        <div class="post-stats">
+          <div class="reactions">
+            <span class="reaction-icons">👍❤️😂</span>
+            <span>248</span>
+          </div>
+          <span>42 comments · 16 shares</span>
+        </div>
+        <div class="post-actions">
+          <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i> Like</button>
+          <button class="action-btn"><i class="bi bi-chat"></i> Comment</button>
+          <button class="action-btn"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="post-card">
+        <div class="post-header">
+          <div class="avatar-sm bg-red">CT</div>
+          <div>
+            <div class="name">CyberSec Today</div>
+            <div class="time">5 hrs · <i class="bi bi-globe2"></i></div>
+          </div>
+          <button class="post-menu"><i class="bi bi-three-dots"></i></button>
+        </div>
+        <div class="post-body">
+          🔐 Top 5 tools every aspiring ethical hacker should learn in 2026:
+          <br><br>
+          1. Burp Suite — Web app testing<br>
+          2. Nmap — Network scanning<br>
+          3. Metasploit — Exploitation framework<br>
+          4. Wireshark — Packet analysis<br>
+          5. John the Ripper — Password cracking
+          <br><br>
+          Which one are you starting with? Drop a comment 👇
+        </div>
+        <div class="post-stats">
+          <div class="reactions">
+            <span class="reaction-icons">🔥👍💡</span>
+            <span>342</span>
+          </div>
+          <span>86 comments · 54 shares</span>
+        </div>
+        <div class="post-actions">
+          <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i> Like</button>
+          <button class="action-btn"><i class="bi bi-chat"></i> Comment</button>
+          <button class="action-btn"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="post-card">
+        <div class="post-header">
+          <div class="avatar-sm bg-purple">AH</div>
+          <div>
+            <div class="name">Abdul Hannan Qureshi</div>
+            <div class="time">Yesterday · <i class="bi bi-people-fill"></i></div>
+          </div>
+          <button class="post-menu"><i class="bi bi-three-dots"></i></button>
+        </div>
+        <div class="post-body">
+          Just completed the Advent of Cyber 25 challenge on TryHackMe! 🛡️
+          <br><br>
+          25 days of hands-on cybersecurity tasks — from log analysis to malware reverse engineering.
+          One step closer to the Red Team dream. 💪
+          <br><br>
+          #CyberSecurity #EthicalHacking #TryHackMe
+        </div>
+        <div class="post-stats">
+          <div class="reactions">
+            <span class="reaction-icons">👍❤️🎉</span>
+            <span>67</span>
+          </div>
+          <span>12 comments · 3 shares</span>
+        </div>
+        <div class="post-actions">
+          <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i> Like</button>
+          <button class="action-btn"><i class="bi bi-chat"></i> Comment</button>
+          <button class="action-btn"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 4 -->
+      <div class="post-card">
+        <div class="post-header">
+          <div class="avatar-sm bg-orange">LN</div>
+          <div>
+            <div class="name">Linux Nerds</div>
+            <div class="time">8 hrs · <i class="bi bi-globe2"></i></div>
+          </div>
+          <button class="post-menu"><i class="bi bi-three-dots"></i></button>
+        </div>
+        <div class="post-body">
+          🐧 Friendly reminder: you can check all open ports on your machine with a single command:
+          <br><br>
+          <code>ss -tulnp</code>
+          <br><br>
+          No need for third-party tools. Linux has you covered.
+          <br><br>
+          Tag someone who still runs <code>netstat</code> 😂
+        </div>
+        <div class="post-stats">
+          <div class="reactions">
+            <span class="reaction-icons">😂👍🔥</span>
+            <span>189</span>
+          </div>
+          <span>53 comments · 31 shares</span>
+        </div>
+        <div class="post-actions">
+          <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i> Like</button>
+          <button class="action-btn"><i class="bi bi-chat"></i> Comment</button>
+          <button class="action-btn"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+
+      <!-- Post 5 -->
+      <div class="post-card">
+        <div class="post-header">
+          <div class="avatar-sm bg-blue">TH</div>
+          <div>
+            <div class="name">TryHackMe <i class="bi bi-patch-check-fill verified"></i></div>
+            <div class="time">12 hrs · <i class="bi bi-globe2"></i></div>
+          </div>
+          <button class="post-menu"><i class="bi bi-three-dots"></i></button>
+        </div>
+        <div class="post-body">
+          📢 New learning path just dropped: <strong>Red Team Fundamentals</strong>
+          <br><br>
+          Learn everything from initial access to post-exploitation in guided, hands-on labs.
+          Perfect for beginners who want to break into offensive security.
+          <br><br>
+          Who's jumping in? ���
+        </div>
+        <div class="post-stats">
+          <div class="reactions">
+            <span class="reaction-icons">🚀👍❤️</span>
+            <span>512</span>
+          </div>
+          <span>134 comments · 97 shares</span>
+        </div>
+        <div class="post-actions">
+          <button class="action-btn"><i class="bi bi-hand-thumbs-up"></i> Like</button>
+          <button class="action-btn"><i class="bi bi-chat"></i> Comment</button>
+          <button class="action-btn"><i class="bi bi-share"></i> Share</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right Sidebar -->
+    <aside class="sidebar-right">
+
+      <div class="sponsored">
+        <h3>Sponsored</h3>
+        <a href="#" class="sponsored-item">
+          <div class="sponsored-icon"><i class="bi bi-shield-check"></i></div>
+          <div>
+            <div class="sponsored-title">ISC2 — Get Certified</div>
+            <div class="sponsored-url">isc2.org</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="sidebar-divider-right"></div>
+
+      <h3>Contacts</h3>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-blue">SA</div>
+        <div class="online-dot"></div>
+        Saman Ahmed
+      </a>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-green">MR</div>
+        <div class="online-dot"></div>
+        Muhammad Raza
+      </a>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-red">FK</div>
+        <div class="online-dot"></div>
+        Fatima Khan
+      </a>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-orange">AA</div>
+        <div class="online-dot"></div>
+        Ali Abbas
+      </a>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-purple">ZH</div>
+        <div class="online-dot"></div>
+        Zainab Hassan
+      </a>
+
+      <div class="sidebar-divider-right"></div>
+
+      <h3>Group conversations</h3>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact bg-blue"><i class="bi bi-people-fill" style="font-size:0.7rem;"></i></div>
+        AU BSCS 28
+      </a>
+      <a href="#" class="contact-item">
+        <div class="avatar-sm avatar-contact" style="background:#1a1a2e;"><i class="bi bi-shield-lock-fill" style="font-size:0.7rem;"></i></div>
+        CyberSec Study Group
+      </a>
+    </aside>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
